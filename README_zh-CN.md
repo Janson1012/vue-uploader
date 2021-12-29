@@ -1,4 +1,4 @@
-# vue-simple-uploader  [![NPM Version][npm-image]][npm-url] [![NPM Downloads][downloads-image]][downloads-url] [![juejin likes][juejin-image]](juejin-url)
+# vue-simple-uploader  [![NPM Version][npm-image]][npm-url] [![NPM Downloads][downloads-image]][downloads-url] [![juejin likes][juejin-image]][juejin-url]
 
 > 一个基于 [simple-uploader.js](https://github.com/simple-uploader/Uploader) 的 Vue 上传组件
 
@@ -187,7 +187,7 @@ new Vue({
     }
     if (status === 'success' || status === 'error') {
       // 只有status为success或者error的时候可以使用 response
-
+  
       // eg:
       // return response data ?
       return response.data
@@ -404,4 +404,4 @@ npm run build --report
 [downloads-image]: https://img.shields.io/npm/dm/vue-simple-uploader.svg?style=flat
 [downloads-url]: https://npmjs.org/package/vue-simple-uploader
 [juejin-image]: https://badge.juejin.im/entry/599dad0ff265da248b04d7b8/likes.svg?style=flat
-[juejin-url]: https://juejin.im/entry/599dad0ff265da248b04d7b8/detail
+[juejin-url]: https://img.shields.io/badge/%E6%8E%98%E9%87%91-446Likes-blue.svg
